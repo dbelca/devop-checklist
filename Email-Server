@@ -14,5 +14,10 @@ To make sure emails can reach its destinations, the following steps should be ta
 [ ] Reverse DNS the IPv6 returns the Domain
 
 ## SPF
+The SPF record can be created using a tool like:
+
+- [http://www.spf-record.de/generator](http://www.spf-record.de/generator)
+
 [ ] The SPF record was inserted into the Zone
 [ ] SPF contains IPv4 AND IPv6 AND any external server that may send our mail
+[ ] The correct configuration was verfified with a service like [https://www.mail-tester.com/](https://www.mail-tester.com/)
